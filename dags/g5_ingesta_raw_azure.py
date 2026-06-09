@@ -4,9 +4,9 @@ from scripts.azure_upload import upload_to_adls
 from scripts.helpers import add_date_suffix
 from datetime import datetime, timedelta
 
-LOCAL_FILE_PATH = "/opt/airflow/data/ventas_local.csv"
-CONTAINER_NAME = "airflow"
-BLOB_NAME = "raw/G5/ventas_local.csv"
+LOCAL_FILE_PATH = "/opt/airflow/data/ventas_transacciones_g5.csv"
+CONTAINER_NAME = "datalake"
+BLOB_NAME = "raw/airflow/G5/ventas/ventas_transacciones_g5.csv"
 
 default_args = {
     "owner": "grupo_5",
