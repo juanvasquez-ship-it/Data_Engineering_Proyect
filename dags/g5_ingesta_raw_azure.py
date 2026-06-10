@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 LOCAL_FILE_PATH = "/opt/airflow/data/ventas_transacciones_g5.csv"
 CONTAINER_NAME = "datalake"
-BLOB_NAME = "raw/airflow/G5/ventas/ventas_transacciones_g5.csv"
+BLOB_NAME = "raw/airflow2/G5/ventas_transacciones_g5.csv"
 
 default_args = {
     "owner": "grupo_5",
